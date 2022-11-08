@@ -9,7 +9,7 @@
 Donde ```Juan``` es el valor del query-string y debe guardarse en una colección en mongoDB llamada ```Visitors```
 
 Si no se escribe el query-param ```/?name= ```, el usuario se guarda como ```Anónimo ```.
-De igual manera, al realizar la solicitud, el mensaje que debe aparecer es (si no hay error de conexión con mongoDB):
+De igual manera, al realizar la solicitud, el mensaje que debe aparecer es (si no hay error de conexión con mongoDB): \
  ```El visitante fue almacenado con éxito``` 
 
 - Para apagar servidor, presionar la combinación de teclas ```Ctrl + C``` o en ```Command + C``` en Mac
