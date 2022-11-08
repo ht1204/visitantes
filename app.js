@@ -24,6 +24,6 @@ mongoose.connection.once("open",  () => {
 app.use('/', visitor);
 
 
-app.listen(config.PORT, () => {
+app.listen(3000, () => {
   console.log("Server started on port 3000");
 });
