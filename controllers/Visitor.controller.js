@@ -15,7 +15,7 @@ const create = async (req, res) => {
     return res.status(200).send("<h1>El visitante fue almacenado con éxito</h1>");
   } catch (err) {
     return res.status(400).json({
-      error
+      err
     })
   }
 }
